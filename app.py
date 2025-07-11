@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 # --- Configuration (UPDATE THESE) ---
 SENDER_EMAIL = "thosecommybastards@gmail.com"
 SENDER_PASSWORD = "dyuy elhu cmqy ixkm" # Use app-specific passwords if available (e.g., for Gmail)
-RECEIVER_EMAIL = "cmack6189@gmail.com"
+RECEIVER_EMAIL = "colinmanson7@hotmail.com"
 SMTP_SERVER = "smtp.gmail.com" # e.g., "smtp.gmail.com" for Gmail
 SMTP_PORT = 587 # or 465 for SSL
 
