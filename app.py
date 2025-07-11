@@ -75,7 +75,7 @@ else:
                             for line in lines:
                                 if line.strip(): # Only send non-empty lines
                                     current_line_count += 1
-                                    subject = f"Karl and Friedrich here, thought this might interest you. {page_num + 1}, Line {current_line_count})"
+                                    subject = f"Karl and Friedrich here. We thought this might interest you. {page_num + 1}, Line {current_line_count})"
                                     body = line.strip()
 
                                     st.write(f"Attempting to send email for Page {page_num + 1}, Line {current_line_count}: '{body[:50]}...'")
